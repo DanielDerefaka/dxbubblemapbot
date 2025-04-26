@@ -1,4 +1,4 @@
-/ README.md
+
 # BubbleMaps Telegram Bot
 
 A Telegram bot that provides token analysis and visualizations using BubbleMaps.
