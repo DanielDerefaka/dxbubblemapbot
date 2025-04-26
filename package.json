@@ -1,0 +1,39 @@
+{
+  "name": "dxbubblemapbot",
+  "version": "1.0.0",
+  "description": "Telegram bot for BubbleMaps token analysis",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint src/",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.13.7",
+    "node-telegram-bot-api": "^0.64.0",
+    "puppeteer": "^21.10.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "blockchain",
+    "cryptocurrency",
+    "bubblemaps",
+    "token",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT"
+}
